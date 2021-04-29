@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/rl_items">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_carPhoto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_carName"
+        android:text="Car Name"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/iv_carPhoto"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_carDetail"
+        android:text="Car Details"
+        android:layout_toRightOf="@+id/iv_carPhoto"
+        android:layout_below="@+id/tv_carName"
+        android:layout_marginLeft="12dp"/>
+</RelativeLayout>
